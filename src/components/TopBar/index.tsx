@@ -32,7 +32,8 @@ const TopBar = () => {
           {theme === 'dark' ? <Moon /> : <Sun />}
         </button>
         <a
-          href='https://github.com/'
+          href='https://github.com/rhmnaulia/md-editor'
+          target='_blank'
           className='h-fit self-center rounded-full text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700'
         >
           <svg
