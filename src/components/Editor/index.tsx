@@ -28,7 +28,7 @@ const Editor = () => {
     const link = document.createElement('a')
     const file = new Blob([markdown], { type: 'text/plain' })
     link.href = URL.createObjectURL(file)
-    link.download = 'Untitled.md'
+    link.download = 'README.md'
     link.click()
     URL.revokeObjectURL(link.href)
     toast.success('💾  File downloaded!')
