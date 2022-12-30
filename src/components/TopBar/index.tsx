@@ -20,8 +20,10 @@ const TopBar = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
   return (
-    <nav className='bg-teal-500 dark:bg-[#1B212E] p-4 lg:px-20 flex justify-between items-center shadow-xl'>
-      <div className='font-bold text-white'>Markdown Editor by @rhmnaulia</div>
+    <nav className='bg-teal-500 dark:bg-[#1B212E] p-4 lg:px-20 h-[60px] flex justify-between items-center shadow-xl'>
+      <h1 className='font-bold text-xl text-white'>
+        Markdown Editor by @rhmnaulia
+      </h1>
       <div className='flex gap-3'>
         <button
           id='theme-toggle'
