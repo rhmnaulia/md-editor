@@ -61,7 +61,7 @@ const Editor = () => {
         placeholder='type markdown text here...'
         onChange={updateMarkdown}
       />
-      <div className='flex gap-3  '>
+      <div className='flex gap-3 lg:static lg:m-0 lg:z-0 fixed left-0 bottom-0 ml-4 mb-4 z-10'>
         <button
           className='rounded-xl shadow-md  bg-teal-500 text-white w-fit px-6 py-2'
           onClick={downloadFile}

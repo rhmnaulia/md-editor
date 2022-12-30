@@ -21,7 +21,7 @@ const TopBar = () => {
   }
   return (
     <nav className='bg-teal-500 dark:bg-[#1B212E] p-4 lg:px-20 h-[60px] flex justify-between items-center shadow-xl'>
-      <h1 className='font-bold text-xl text-white'>
+      <h1 className='font-bold lg:text-xl text-base text-white'>
         Markdown Editor by @rhmnaulia
       </h1>
       <div className='flex gap-3'>
