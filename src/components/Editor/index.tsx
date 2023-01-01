@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import TitleBar from '../TitleBar/Index'
-import { useMarkdown } from '../../providers/MarkdownProvider'
 import { toast } from 'react-toastify'
+import { useMarkdown } from '../../providers/MarkdownProvider'
+import TitleBar from '../TitleBar/Index'
 
 const Editor = () => {
   const [markdown, setMarkdown] = useMarkdown()

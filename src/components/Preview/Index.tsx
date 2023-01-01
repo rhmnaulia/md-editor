@@ -1,6 +1,6 @@
-import TitleBar from '../TitleBar/Index'
 import MarkdownPreview from '@uiw/react-markdown-preview'
 import { useMarkdown } from '../../providers/MarkdownProvider'
+import TitleBar from '../TitleBar/Index'
 
 const Preview = () => {
   const [markdown] = useMarkdown()

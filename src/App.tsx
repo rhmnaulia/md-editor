@@ -1,6 +1,6 @@
 import { ToastContainer } from 'react-toastify'
-import MainLayout from './components/MainLayout'
 import Editor from './components/Editor'
+import MainLayout from './components/MainLayout'
 import Preview from './components/Preview/Index'
 import TopBar from './components/TopBar'
 import { useTheme } from './providers/ThemeProvider'
